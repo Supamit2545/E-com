@@ -1,0 +1,47 @@
+.topnav-container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px gray;
+    position: sticky;
+    z-index: 1;
+    padding: 16px;
+}
+.topnav-left{
+    display: flex;
+}
+.topnav-center{
+    display: flex;
+    margin: auto;
+    
+}
+.topnav-right{
+    display: flex;
+    
+}
+.ul-list{
+    display: flex;
+}
+li{
+    list-style: none;
+    text-align: center  ;
+}
+.name-brand{
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+.tabs{
+    cursor: pointer;
+    
+}
+.tabs.active{
+    font-weight: bold;
+}
+.underline-c{
+    background: red;
+    width: auto;
+    height: 5px;
+    border-radius: 20px;
+    transition: translateX(-10vw);
+}
