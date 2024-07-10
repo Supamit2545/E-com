@@ -4,7 +4,9 @@
     box-shadow: 0 1px 3px gray;
     position: sticky;
     z-index: 1;
-    padding: 16px;
+    padding: 16px; 
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .topnav-left{
     display: flex;
@@ -33,15 +35,46 @@ li{
 }
 .tabs{
     cursor: pointer;
-    
+    height: 30px;
 }
 .tabs.active{
     font-weight: bold;
+    top: 20px;
+    font-size: 20px;
 }
 .underline-c{
+    display: hidden;
+}
+.underline-c.active{
     background: red;
     width: auto;
     height: 5px;
+    
     border-radius: 20px;
-    transition: translateX(-10vw);
+    animation: moveRight 80ms ease-in ;
+}
+.cart-icon::before{
+
+}
+.cart-icon::after{
+    background: red;
+    width: 50px;
+    height: 50px;   
+}
+
+@keyframes moveRight {
+    from {
+      transform: translateY(1vw);
+    }
+    to {
+      
+    }
+}
+@keyframes moveLeft {
+    from {
+      transform: translateX(2vw);
+    }
+    to {
+      
+    }
 }
