@@ -53,13 +53,24 @@ li{
     border-radius: 20px;
     animation: moveRight 80ms ease-in ;
 }
-.cart-icon::before{
-
+.cart-icon{
+    cursor: pointer;
+    position: relative;
 }
-.cart-icon::after{
+.cart-count{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    margin-top: 7px;
+    right: 4.6%;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
     background: red;
-    width: 50px;
-    height: 50px;   
 }
 
 @keyframes moveRight {
