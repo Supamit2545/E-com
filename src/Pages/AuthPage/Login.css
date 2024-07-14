@@ -1,0 +1,84 @@
+.login-container{
+    background: rgb(4, 196, 230);
+    width: auto;
+    height: 41.6vw;
+}
+.login-box{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgb(255, 166, 0);
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 15%;
+    z-index: 1;
+}
+.Login-Form{
+    padding: 16px;
+}
+.login-input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: monospace;
+}
+.login-input:focus{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: monospace;
+    border: 0px;
+    outline: 2px darkblue solid;
+}
+
+.cover{
+    position: absolute;
+    background-image: url("..//..//assets/img/Cover/ShoppingLogo.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 50px;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    z-index: 2;
+}
+.cover.active{
+    position: absolute;
+    background-image: url("..//..//assets/img/Cover/ShoppingLogo.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: flip;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+    z-index: 2;
+    border-radius: 0 20px 20px 0;
+    transform: translateX(-10deg) 2s ease;
+}
+.cover-top{
+    width: 120%;
+    border-top: 100px solid rgb(0, 102, 255);
+    border-right: 100px solid transparent;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.cover-top.active{
+    width: 90%;
+    margin-left: 7%;
+    border-left: 100px solid transparent;
+    border-right: 0px solid transparent;
+    
+}
+
+.Register-Form{
+    padding: 16px;
+}

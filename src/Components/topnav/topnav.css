@@ -49,7 +49,6 @@ li{
     background: red;
     width: auto;
     height: 5px;
-    
     border-radius: 20px;
     animation: moveRight 80ms ease-in ;
 }
@@ -77,15 +76,9 @@ li{
     from {
       transform: translateY(1vw);
     }
-    to {
-      
-    }
 }
 @keyframes moveLeft {
     from {
-      transform: translateX(2vw);
-    }
-    to {
-      
+      transform: translateY(2vw);
     }
 }
